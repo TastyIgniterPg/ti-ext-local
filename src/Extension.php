@@ -125,6 +125,7 @@ class Extension extends BaseExtension
             'presets' => [
                 'chase_review_after_one_day' => [
                     'name' => 'Send a message to leave a review after 24 hours',
+                    'description' => 'Send a message to leave a review after 24 hours',
                     'event' => OrderSchedule::class,
                     'actions' => [
                         SendMailTemplate::class => [
